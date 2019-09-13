@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Blue Card Refresher",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.berlin.de/*"
+            ],
+            "js": [
+                "refresher.js"
+            ]
+        }
+    ]
+}
